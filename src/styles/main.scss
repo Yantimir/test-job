@@ -270,7 +270,6 @@ $yellow: #ffcc2d;
     }
     &__info {
         position: absolute;
-
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -280,6 +279,7 @@ $yellow: #ffcc2d;
         bottom: 0;
         left: 0;
         padding: 0 40px;
+        transition: 0.2s ease-in-out;
     }
     &__logocard {
         position: relative;
@@ -289,6 +289,9 @@ $yellow: #ffcc2d;
         top: 50%;
         right: 50%;
         transform: translate(50%, -50%);
+    }
+    &__info:hover {
+        background-color: $dark-green;
     }
     &__head {
         display: flex;
